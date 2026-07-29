@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100" viewBox="0 0 800 100">
+  <style>
+    .pulse-text {
+      font-family: Arial, sans-serif;
+      font-size: 28px;
+      font-weight: bold;
+      fill: #00ff88;
+      text-anchor: middle;
+      animation: pulse 1.5s infinite alternate;
+    }
+
+    @keyframes pulse {
+      0% { opacity: 0.2; transform: translateY(0px); }
+      100% { opacity: 1; transform: translateY(-5px); }
+    }
+  </style>
+
+  <text x="50%" y="50%" class="pulse-text">🚀 Building Next-Gen Software 🚀</text>
+</svg>
